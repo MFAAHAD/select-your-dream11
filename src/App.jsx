@@ -7,6 +7,8 @@ import Available from './Components/AvailableButton/Available';
 import Players from './Components/Players/Players';
 import SelectedInfo from './Components/BtnInfo/SelectedInfo';
 import { toast, ToastContainer } from 'react-toastify';
+import Footer from './Components/myfooter/Footer';
+import Newsletter from './Components/myfooter/Newsletter';
 
 function App() {
   const [coins, setCoin] = useState(0);
@@ -114,6 +116,11 @@ function App() {
 
           </SelectedInfo>
       )}
+      <Footer></Footer>
+
+      <Newsletter></Newsletter>
+      
+      
     </div>
   );
 }

@@ -1,8 +1,8 @@
-# React + Vite
+Name of your project.
+A brief description.
+Technologies used.
+3 key features of your project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## BPL-DREAM 11!!!
+### 
+Welcome to Assignment -07. This assignment involves building a React-based application where users can select and manage cricket players for a team, following the design from Figma. You'll create a UI, handle player selection, coin limitations, and complete the system following the requirements written below:

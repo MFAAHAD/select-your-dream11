@@ -1,11 +1,11 @@
 import { BsCoin } from "react-icons/bs";
-
+import logopng from "..//..//assets/images/logo.png"
 const Navbar = ({coins}) => {
     return (
         <header className="w-[90%] mx-auto mt-12 border-b-2">
             <div className="flex flex-col md:flex-row md:justify-between items-center my-8 space-y-4">
                 {/* Logo */}
-                <div><img src="/src/assets/images/logo.png" alt="" /></div>
+                <div><img src={logopng} alt="" /></div>
 
                 {/* menu end */}
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">

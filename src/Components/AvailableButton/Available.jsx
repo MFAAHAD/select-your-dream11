@@ -24,4 +24,3 @@ const Available = ({ handleIsActiveState, isActive }) => {
 };
 
 export default Available;
-

@@ -1,3 +1,6 @@
+
+// eslint-disable-next-line no-unused-vars
+import fakedata from '../../../public/fakeData.json'
 import { useEffect, useState } from "react";
 import { FaFlag } from "react-icons/fa6";
 
@@ -5,7 +8,7 @@ const Players = ({ onSelectPlayer }) => {
   const [players, setPlayers] = useState([]);
 
   useEffect(() => {
-    fetch('/public/fakeData.json')
+    fetch('fakedata.json')
       .then(res => res.json())
       .then(data => setPlayers(data));
   }, []);
