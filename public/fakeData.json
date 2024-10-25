@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "batsman_img":"https://i.ibb.co.com/vL6N2g5/gettyimages-1744637502-612x612.jpg",
+        "name": "Virat Kohli",
+        "country_name": "India",
+        "player_type": "Top-order batsman",
+        "batting_type": "Right-handed",
+        "price": 1200000
+    },
+    {
+        "id": 2,
+        "batsman_img": "https://i.ibb.co.com/KG3TLz8/gettyimages-1759491102-612x612.jpg",
+        "name": "Babar Azam",
+        "country_name": "Pakistan",
+        "player_type": "Top-order batsman",
+        "batting_type": "Right-handed",
+        "price": 1100000
+    },
+    {
+        "id": 3,
+        "batsman_img": "https://i.ibb.co.com/FKJr76D/gettyimages-1781864925-612x612.jpg",
+        "name": "Ben Stokes",
+        "country_name": "New Zealand",
+        "player_type": "Allrounder",
+        "batting_type": "Left hand Bat",
+        "price": 900000
+    },
+    {
+        "id": 4,
+        "batsman_img":"https://i.ibb.co.com/TtzZbLm/gettyimages-2159832977-612x612.jpg",
+        "name": "Jasprit Bumrah",
+        "country_name": "India",
+        "player_type": "Bowler",
+        "batting_type": "Right hand Bat",
+        "price": 950000
+    },
+    {
+        "id": 5,
+        "batsman_img": "https://i.ibb.co.com/M6zX3D5/gail.jpg",
+        "name": "Chris Gayle",
+        "country_name": "Jamaica",
+        "player_type": "Allrounder",
+        "batting_type": "Left hand Bat",
+        "price": 800000
+    },
+    {
+        "id": 6,
+        "batsman_img": "https://i.ibb.co.com/BVB0H34/gettyimages-632342478-612x612.jpg",
+        "name": "David Warner",
+        "country_name": "Australia",
+        "player_type": "Opener",
+        "batting_type": "Left-handed",
+        "price": 850000
+    },
+    {
+        "id": 7,
+        "batsman_img": "https://i.ibb.co.com/YWjnqkd/gettyimages-2158438326-612x612.jpg",
+        "name": "Rashid Khan",
+        "country_name": "Afghanistan",
+        "player_type": "Bowling Allrounder",
+        "batting_type": "Right hand Bat",
+        "price": 1000000
+    },
+    {
+        "id": 8,
+        "batsman_img": "https://i.ibb.co.com/NmnY1FS/gettyimages-1153201380-612x612.jpg",
+        "name": "Quinton de Kock",
+        "country_name": "South Africa",
+        "player_type": "Wicketkeeper Batter",
+        "batting_type": "Left hand Bat",
+        "price": 750000
+    },
+    {
+        "id": 9,
+        "batsman_img": "https://i.ibb.co.com/Y7qK0xn/gettyimages-1366486580-612x612.jpg",
+        "name": "Shai Hope",
+        "country_name": "West Indies",
+        "player_type": "Middle-order batsman",
+        "batting_type": "Right-handed",
+        "price": 700000
+    },
+    {
+        "id": 10,
+        "batsman_img": "https://i.ibb.co.com/dJc1ZR0/gettyimages-1984281089-612x612.jpg",
+        "name": "Shubman Gill",
+        "country_name": "India",
+        "player_type": "Opener",
+        "batting_type": "Right-handed",
+        "price": 600000
+    },
+    {
+        "id": 11,
+        "batsman_img": "https://i.ibb.co.com/zfWDVcy/gettyimages-1157150872-612x612.jpg",
+        "name": "Tamim Iqbal",
+        "country_name": "Bangladesh",
+        "player_type": "Opening Batter",
+        "batting_type": "Left hand Bat",
+        "price": 500000
+    },
+    {
+        "id": 12,
+        "batsman_img": "https://i.ibb.co.com/TmLxywq/gettyimages-1435210760-612x612.jpg",
+        "name": "Nicholas Pooran",
+        "country_name": "West Indies",
+        "player_type": "Middle-order batsman",
+        "batting_type": "Left-handed",
+        "price": 550000
+    }
+]
+
