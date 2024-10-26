@@ -29,6 +29,17 @@ function App() {
 
   const handleAddCoins = () => {
     setCoin(coins + 3000000);
+    
+    // Display a warning message when credits are added
+    toast.warn('Credit added to your account.', {
+      position: "top-center",
+      autoClose: 2000,
+      progressClassName: 'progress-bar-yellow',
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      icon: "⚠️"
+    });
   };
 
   const handleSelectPlayer = (player) => {
@@ -86,7 +97,22 @@ function App() {
   };
 
   const handleRemovePlayer = (id) => {
-    setSelectedPlayers(selectedPlayers.filter(player => player.id !== id));
+    const playerToRemove = selectedPlayers.find(player => player.id === id);
+    
+    if (playerToRemove) {
+      setSelectedPlayers(selectedPlayers.filter(player => player.id !== id));
+      
+      // Display a warning message when a player is removed
+      toast.warn(`${playerToRemove.name} has been removed from your squad.`, {
+        position: "top-center",
+        autoClose: 2000,
+        progressClassName: 'progress-bar-yellow',
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        icon: "⚠️"
+      });
+    }
   };
   
   const handleAddMorePlayer = () => {

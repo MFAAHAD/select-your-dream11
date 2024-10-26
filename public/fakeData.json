@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "batsman_img":"https://i.ibb.co.com/vL6N2g5/gettyimages-1744637502-612x612.jpg",
+        "batsman_img":"https://i.ibb.co.com/cFg5jFD/gettyimages-1802411253-612x612.jpg",
         "name": "Virat Kohli",
         "country_name": "India",
         "player_type": "Top-order batsman",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "batsman_img": "https://i.ibb.co.com/KG3TLz8/gettyimages-1759491102-612x612.jpg",
+        "batsman_img": "https://i.ibb.co.com/44njcNv/gettyimages-2156775068-612x612.jpg",
         "name": "Babar Azam",
         "country_name": "Pakistan",
         "player_type": "Top-order batsman",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "batsman_img":"https://i.ibb.co.com/TtzZbLm/gettyimages-2159832977-612x612.jpg",
+        "batsman_img":"https://i.ibb.co.com/TrkZmhz/gettyimages-1729534685-612x612.jpg",
         "name": "Jasprit Bumrah",
         "country_name": "India",
         "player_type": "Bowler",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "batsman_img": "https://i.ibb.co.com/M6zX3D5/gail.jpg",
+        "batsman_img": "https://i.ibb.co.com/PzmvVTd/gettyimages-1159984087-612x612.jpg",
         "name": "Chris Gayle",
         "country_name": "Jamaica",
         "player_type": "Allrounder",
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "batsman_img": "https://i.ibb.co.com/BVB0H34/gettyimages-632342478-612x612.jpg",
+        "batsman_img": "https://i.ibb.co.com/X831nK8/gettyimages-1746279510-612x612.jpg",
         "name": "David Warner",
         "country_name": "Australia",
         "player_type": "Opener",
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "batsman_img": "https://i.ibb.co.com/YWjnqkd/gettyimages-2158438326-612x612.jpg",
+        "batsman_img": "https://i.ibb.co.com/zsxxXmm/gettyimages-1364185185-612x612.jpg",
         "name": "Rashid Khan",
         "country_name": "Afghanistan",
         "player_type": "Bowling Allrounder",
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "batsman_img": "https://i.ibb.co.com/NmnY1FS/gettyimages-1153201380-612x612.jpg",
+        "batsman_img": "https://i.ibb.co.com/0K2jRXg/gettyimages-1434021872-612x612.jpg",
         "name": "Quinton de Kock",
         "country_name": "South Africa",
         "player_type": "Wicketkeeper Batter",
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "batsman_img": "https://i.ibb.co.com/Y7qK0xn/gettyimages-1366486580-612x612.jpg",
+        "batsman_img": "https://i.ibb.co.com/ZYN7QKf/gettyimages-1500530417-612x612.jpg",
         "name": "Shai Hope",
         "country_name": "West Indies",
         "player_type": "Middle-order batsman",
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "batsman_img": "https://i.ibb.co.com/dJc1ZR0/gettyimages-1984281089-612x612.jpg",
+        "batsman_img": "https://i.ibb.co.com/s1vnrm8/gettyimages-913614016-612x612.jpg",
         "name": "Shubman Gill",
         "country_name": "India",
         "player_type": "Opener",
@@ -91,7 +91,7 @@
     },
     {
         "id": 11,
-        "batsman_img": "https://i.ibb.co.com/zfWDVcy/gettyimages-1157150872-612x612.jpg",
+        "batsman_img": "https://i.ibb.co.com/7tMN6jn/gettyimages-691109642-612x612.jpg",
         "name": "Tamim Iqbal",
         "country_name": "Bangladesh",
         "player_type": "Opening Batter",
@@ -100,7 +100,7 @@
     },
     {
         "id": 12,
-        "batsman_img": "https://i.ibb.co.com/TmLxywq/gettyimages-1435210760-612x612.jpg",
+        "batsman_img": "https://i.ibb.co.com/RBNKcSZ/gettyimages-1433027553-612x612.jpg",
         "name": "Nicholas Pooran",
         "country_name": "West Indies",
         "player_type": "Middle-order batsman",
