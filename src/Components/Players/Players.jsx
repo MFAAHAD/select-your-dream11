@@ -17,7 +17,7 @@ const Players = ({ onSelectPlayer }) => {
     <div className="w-[90%] mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {players.map(player => (
-          <div key={player.id} className="card bg-base-100 w-96 shadow-xl">
+          <div key={player.id} className="card bg-base-100 shadow-xl">
             <figure>
               <img className="w-full h-[250px]" src={player.batsman_img} alt="player" />
             </figure>
