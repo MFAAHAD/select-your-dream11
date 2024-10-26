@@ -1,6 +1,6 @@
 const Newsletter = () => {
   return (
-    <div className="relative w-full h-full flex justify-center items-center md:-mt-[41rem] -mt-[68rem]">
+    <div className="relative w-full h-full flex justify-center items-center md:-mt-[43rem] -mt-[70rem]">
       <div className="w-[90%] md:w-[75%] bg-gradient-to-r from-blue-100 to-orange-100 rounded-3xl p-12 shadow-lg border-4 border-blue-300 hover:bg-blue-50 transition duration-300 ease-in-out">
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-5">Subscribe to our Newsletter</h2>

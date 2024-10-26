@@ -19,13 +19,16 @@ const SelectedInfo = ({ players, onRemovePlayer, handleAddMorePlayer }) => {
                     </div>
                 ))}
             </div>
-            {/* Button always visible, regardless of player count */}
-            <button
-                onClick={handleAddMorePlayer}
-                className="mt-4 bg-yellow-500 text-white px-4 py-2 rounded-lg"
-            >
-                Add More Player
-            </button>
+            {/* Button always visible */}
+            
+            <div className="border border-black rounded-xl p-1 inline-block ">
+                <button
+                    onClick={handleAddMorePlayer}
+                    className="bg-[#E7FE29] border border-[#E7FE29] text-black font-bold py-2 px-4 rounded-lg "
+                >
+                    Add More Player
+                </button>
+            </div>
         </div>
     );
 };

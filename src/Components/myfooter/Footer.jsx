@@ -3,7 +3,7 @@ import footerimg from "../../assets/images/logo-footer.png"
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral  text-neutral-content p-10 mt-[270px] md:mt-[150px]  relative">
+    <footer className="bg-neutral  text-neutral-content p-10 mt-[320px] md:mt-[200px]  relative">
       <div className="  flex flex-col justify-between items-center space-y-8">
 
         {/* Image at the top */}
