@@ -15,13 +15,13 @@ const Footer = () => {
         <div className=" flex flex-col sm:flex-row justify-around w-full mx-auto space-y-6 sm:space-y-0 sm:space-x-8">
 
           <nav className="flex flex-col items-center mb-4 sm:mb-0">
-            <h6 className="footer-title">About-Us</h6>
+            <h6 className="text-xl text-white">About-Us</h6>
             <p className="text-center">
               We are a passionate team providing<br /> quality service. You will get<br /> many services timely.
             </p>
           </nav>
 
-          <nav className="flex flex-col items-start mb-4 sm:mb-0 space-y-2">
+          <nav className="flex flex-col items-center sm:items-start mb-4 sm:mb-0 space-y-2">
                         <h6 className="text-xl text-white">Quick-List</h6>
                         <ul className="list-inside space-y-1" style={{ listStyleType: 'square'}}>
                             <li><a className="link link-hover">Home</a></li>
@@ -32,7 +32,7 @@ const Footer = () => {
                     </nav>
 
           <nav className="flex flex-col items-center">
-            <h6 className="footer-title">Subscribe</h6>
+            <h6 className="text-xl text-white">Subscribe</h6>
             <p className="text-center">
               Subscribe to newsletter for the<br /> latest updates.
             </p>

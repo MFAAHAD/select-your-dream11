@@ -1,7 +1,6 @@
-
-const Available = ({ handleIsActiveState, isActive }) => {
+const Available = ({ handleIsActiveState, isActive, selectedCount }) => {
     return (
-        <div className="flex  md:flex-row  flex-col justify-between items-center w-[90%] mx-auto mb-10">
+        <div className="flex md:flex-row flex-col justify-between items-center w-[90%] mx-auto mb-10">
             <div>
                 <h2 className="md:text-2xl text-3xl mb-3">Available</h2>
             </div>
@@ -16,7 +15,7 @@ const Available = ({ handleIsActiveState, isActive }) => {
                     onClick={() => handleIsActiveState("selected")}
                     className={`${!isActive.available ? "bg-yellow-500 text-white" : "bg-none text-gray-300"} px-4 py-2 rounded-lg`}
                 >
-                    Selected
+                    Selected ({selectedCount}) {/* Display the selected count */}
                 </button>
             </div>
         </div>

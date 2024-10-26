@@ -31,19 +31,14 @@ function App() {
     setCoin(coins + 3000000);
   };
 
-
   const handleSelectPlayer = (player) => {
-
     if (selectedPlayers.length < 6) {
       const playerExists = selectedPlayers.find(p => p.id === player.id);
 
       // If the player is not already selected
       if (!playerExists) {
-        
         if (coins >= player.price) {
-          
           setCoin(coins - player.price);
-
           setSelectedPlayers([...selectedPlayers, player]);
 
           toast.success(`Congrats!! ${player.name} is now in your squad.`, {
@@ -90,8 +85,6 @@ function App() {
     }
   };
 
-
-
   const handleRemovePlayer = (id) => {
     setSelectedPlayers(selectedPlayers.filter(player => player.id !== id));
   };
@@ -108,22 +101,19 @@ function App() {
       <ToastContainer />
       <Navbar coins={coins}></Navbar>
       <Banner handleAddCoins={handleAddCoins}></Banner>
-      <Available handleIsActiveState={handleIsActiveState} isActive={isActive}></Available>
+      
+      <Available handleIsActiveState={handleIsActiveState} isActive={isActive} selectedCount={selectedPlayers.length} />
+      
       {isActive.available ? (
         <Players onSelectPlayer={handleSelectPlayer}></Players>
       ) : (
-          <SelectedInfo players={selectedPlayers} onRemovePlayer={handleRemovePlayer} handleAddMorePlayer={handleAddMorePlayer}>
-
-          </SelectedInfo>
+        <SelectedInfo players={selectedPlayers} onRemovePlayer={handleRemovePlayer} handleAddMorePlayer={handleAddMorePlayer} />
       )}
-      <Footer></Footer>
-
-      <Newsletter></Newsletter>
       
-      
+      <Footer />
+      <Newsletter />
     </div>
   );
 }
 
 export default App;
-
