@@ -1,6 +1,5 @@
 
-
-import footerimg from "..//..//assets/images/logo-footer.png"
+import footerimg from "../../assets/images/logo-footer.png"
 
 const Footer = () => {
   return (
@@ -23,14 +22,14 @@ const Footer = () => {
           </nav>
 
           <nav className="flex flex-col items-start mb-4 sm:mb-0 space-y-2">
-            <h6 className="text-xl text-white">Quick-List</h6>
-            <ul className="list-disc list-inside space-y-1">
-              <li><a className="link link-hover">Home</a></li>
-              <li><a className="link link-hover">Contact</a></li>
-              <li><a className="link link-hover">About us</a></li>
-              <li><a className="link link-hover">Press kit</a></li>
-            </ul>
-          </nav>
+                        <h6 className="text-xl text-white">Quick-List</h6>
+                        <ul className="list-inside space-y-1" style={{ listStyleType: 'square'}}>
+                            <li><a className="link link-hover">Home</a></li>
+                            <li><a className="link link-hover">Contact</a></li>
+                            <li><a className="link link-hover">About us</a></li>
+                            <li><a className="link link-hover">Press kit</a></li>
+                        </ul>
+                    </nav>
 
           <nav className="flex flex-col items-center">
             <h6 className="footer-title">Subscribe</h6>
